@@ -1,6 +1,7 @@
 /* ===== Import Css ===== */
 @import url("./_reusables.css");
 @import url("./_datepicker.css");
+@import url("./_globals.css");
 
 /* ===== Tailwind Directives ===== */
 @tailwind base;
