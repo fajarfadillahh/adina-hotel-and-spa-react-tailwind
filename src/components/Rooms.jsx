@@ -13,7 +13,7 @@ const Rooms = () => {
   const { rooms, loading } = useContext(RoomContext);
 
   return (
-    <section className="rooms py-24">
+    <section className="rooms">
       {/* overlay & spinner loader */}
       {loading && (
         <div className="fixed top-0 left-0 z-50 flex h-screen w-full items-center justify-center bg-black/90">
@@ -21,12 +21,14 @@ const Rooms = () => {
         </div>
       )}
 
-      <div className="container mx-auto">
+      <div className="container mx-auto py-24">
         <div className="text-center">
           <div className="font-tertiary text-[15px] uppercase tracking-[6px]">
             Hotel & Spa Adina
           </div>
-          <h2 className="mb-4 font-primary text-[45px]">Hotel & Suites</h2>
+          <h2 className="mb-4 font-primary text-[32px] lg:text-[45px]">
+            Hotel & Suites
+          </h2>
         </div>
 
         {/* grid */}
