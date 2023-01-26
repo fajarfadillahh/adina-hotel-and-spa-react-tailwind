@@ -33,19 +33,19 @@ const Header = () => {
           {/* header menu */}
           <div className={`${header ? "text-primary" : "text-white"}`}>
             <ul className="flex items-center gap-x-6 font-tertiary text-[15px] uppercase tracking-[1.5px] lg:gap-x-8">
-              <a href="/" className="transition hover:text-accent">
-                Home
+              <a href="/about" className="transition hover:text-accent">
+                About
               </a>
-              <a href="/" className="transition hover:text-accent">
+              <a href="/rooms" className="transition hover:text-accent">
                 Rooms
               </a>
-              <a href="/" className="transition hover:text-accent">
+              <a href="/restaurants" className="transition hover:text-accent">
                 Restaurants
               </a>
-              <a href="/" className="transition hover:text-accent">
+              <a href="/spa" className="transition hover:text-accent">
                 Spa
               </a>
-              <a href="/" className="transition hover:text-accent">
+              <a href="/contact" className="transition hover:text-accent">
                 Contact
               </a>
             </ul>

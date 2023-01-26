@@ -8,6 +8,7 @@ import Footer from "./components/Footer";
 // import pages
 import Home from "./pages/Home";
 import RoomDetails from "./pages/RoomDetails";
+import NotFound from "./pages/NotFound";
 
 const router = createBrowserRouter([
   {
@@ -17,6 +18,10 @@ const router = createBrowserRouter([
   {
     path: "/room/:id",
     element: <RoomDetails />,
+  },
+  {
+    path: "*",
+    element: <NotFound />,
   },
 ]);
 
