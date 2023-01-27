@@ -13,7 +13,6 @@ import CheckOut from "../components/CheckOut";
 import AdultsDropdown from "../components/AdultsDropdown";
 import KidsDropdown from "../components/KidsDropdown";
 import ScrollToTop from "../components/ScrollToTop";
-import DarkMode from "../components/DarkMode";
 
 const RoomDetails = () => {
   const { rooms } = useContext(RoomContext);
@@ -30,7 +29,6 @@ const RoomDetails = () => {
   return (
     <section>
       <ScrollToTop />
-      <DarkMode />
 
       {/* room banner */}
       <div className="relative flex h-[560px] items-center justify-center bg-room bg-cover bg-center">
