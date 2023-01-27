@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import { BsMoonFill, BsSunFill } from "react-icons/bs";
 
 // import header logo
 import LogoWhite from "../assets/images/logo-white.svg";

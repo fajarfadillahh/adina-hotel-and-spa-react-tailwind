@@ -4,6 +4,7 @@ import React from "react";
 import HeroSlider from "../components/HeroSlider";
 import BookForm from "../components/BookForm";
 import Rooms from "../components/Rooms";
+import DarkMode from "../components/DarkMode";
 
 const Home = () => {
   return (
@@ -11,6 +12,7 @@ const Home = () => {
       <HeroSlider />
       <BookForm />
       <Rooms />
+      <DarkMode />
     </>
   );
 };
